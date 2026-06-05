@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    while (1) {
+        char *fucker = malloc(6000);
+        if (!fucker) break;
+         for (int i = 0; i < 6000; i++) {
+            fucker[i] = 1;
+            printf("fucker[%d\n]", i);
+         }
+    }
+}
