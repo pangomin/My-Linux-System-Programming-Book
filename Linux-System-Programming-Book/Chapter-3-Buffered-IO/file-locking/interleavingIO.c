@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <pthread.h>
+#include <unistd.h>
 
 void* thread_1 (void* arg) {
 	FILE *fp = (FILE*)arg;
